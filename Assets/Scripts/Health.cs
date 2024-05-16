@@ -28,7 +28,7 @@ public class Health : MonoBehaviour
             {
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(4);
             }
         }
     }

@@ -3117,7 +3117,7 @@ GameObject:
   - component: {fileID: 1653429480}
   - component: {fileID: 1653429479}
   m_Layer: 0
-  m_Name: Finish
+  m_Name: Finish1
   m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

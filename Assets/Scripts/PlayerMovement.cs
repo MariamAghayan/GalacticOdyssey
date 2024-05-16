@@ -74,9 +74,17 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Finish")
+        if (collision.tag == "Finish1")
         {
             SceneManager.LoadScene(2);
+        }
+        else if(collision.tag == "Finish2")
+        {
+            SceneManager.LoadScene(3);
+        }
+        else if (collision.tag == "Finish3")
+        {
+            SceneManager.LoadScene(4);
         }
     }
 
